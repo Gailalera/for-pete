@@ -1,8 +1,6 @@
 @include('partials.header')
 
-<center> <img src="mickey.png" alt=""> </center>
-
-<h5>FILL THE FORMS TO ADD A NEW PRODUCT</h5>
+<h5>Create new Input</h5>
 <form action="/saveProduct" method="POST">
     @csrf
     

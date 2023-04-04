@@ -1,7 +1,7 @@
 @include('partials.header')
-<center> <img src="mickey.png" alt=""> </center>
 
-<h5>EDIT PRODUCT</h5>
+
+<h5>Edit item</h5>
 <form action="/updateProduct" method="POST">
     @csrf
     
