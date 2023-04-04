@@ -1,7 +1,10 @@
 @include('partials.header')
 
-<center> <img src="mickey.png" alt=""> </center>
-<h3>Welcome, It's time to create an account!</h3>
+<br>
+<br>
+<br>
+<br>
+<h3>Create new Account</h3>
 <form action="/store" method="POST">
     @csrf
     
@@ -47,7 +50,7 @@
     </div>
    
 
-    <button type="submit" class="btn btn-dark mb-3">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </form>
   <h6><a href={{"/login"}}>Already have an account? Sign in here.</a></h6>
   @include('partials.footer')

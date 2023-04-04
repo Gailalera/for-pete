@@ -1,5 +1,5 @@
 @include('partials.header')
-<center> <img src="mickey.png" alt=""> </center>
+
 
 <h5>Edit record</h5>
 <form action="/updateCustomer" method="POST">
@@ -66,5 +66,5 @@
     
        
 
-    <button type="submit" class="btn btn-dark mb-3">Update</button>
+    <button type="submit" class="btn btn-success">Update</button>
   </form>

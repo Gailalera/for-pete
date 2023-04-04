@@ -1,6 +1,8 @@
 @include('partials.header')
-
-<h5>Create a new record</h5>
+<br>
+<br>
+<br>
+<h5>Add new user</h5>
 <form action="/saveCustomer" method="POST">
     @csrf
     
@@ -64,5 +66,5 @@
     
        
 
-    <button type="submit" class="btn btn-dark mb-3">Submit</button>
+    <button type="submit" class="btn btn-success">Submit</button>
   </form>

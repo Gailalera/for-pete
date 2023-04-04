@@ -47,5 +47,5 @@
     
        
 
-    <button type="submit" class="btn btn-dark mb-3">Submit</button>
+    <button type="submit" class="btn btn-success">Update</button>
   </form>

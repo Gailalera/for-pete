@@ -1,7 +1,9 @@
 @include('partials.header')
-<center> <img src="mickey.png" alt=""> </center>
-
-<h3>Hey There, Welcome Back!</h3>
+<br>
+<br>
+<br>
+<br>
+<h3>Login Page</h3>
 <form action="/login/process" method="POST">
     @csrf
     
@@ -30,8 +32,8 @@
     </div>
    
 
-    <button type="submit" class="btn btn-dark mb-3" >Submit</button>
-    
+    <button type="submit" class="btn btn-primary" >Login</button>
+    <br>
     <h6><a href={{"/register"}}>New User? Sign up here.</a></h6>
   </form>
   @if(Session::has('successLogout'))

@@ -1,6 +1,6 @@
 <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link active"  href={{"/"}}>Records</a>
+      <a class="nav-link active"  href={{"/"}}>Home</a>
  
     </li>
 

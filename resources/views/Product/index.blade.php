@@ -1,8 +1,8 @@
 @include('partials.header')
 
 <x-nav/>
-<table class="table table-hover">
-  <thead class="table-dark">
+<table class="table">
+ 
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Description</th>

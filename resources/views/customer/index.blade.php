@@ -1,8 +1,8 @@
 
 @include('partials.header')
 <x-nav/>
-<table class="table table-hover">
-  <thead class="table-dark">
+<table class="table">
+
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Last Name</th>
@@ -30,8 +30,8 @@
       <td>{{$customer->firstName}}</td>
       <td>{{$customer->email}}</td>
       <td>{{$customer->address}}</td>
-      <td><a href="edit/{{$customer->id}}" class="text-info-emphasis">Edit</a></td>
-      <td><a href="delete/{{$customer->id}}" class="text-danger">DELETE</a></td>
+      <td><a href="edit/{{$customer->id}}" class="btn btn-info">Edit</a></td>
+      <td><a href="delete/{{$customer->id}}" class="btn btn-danger">Delete</a></td>
     
     </tr>
   </tbody>
