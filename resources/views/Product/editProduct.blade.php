@@ -1,6 +1,8 @@
 @include('partials.header')
 
-
+<br>
+<br>
+<br>
 <h5>Edit item</h5>
 <form action="/updateProduct" method="POST">
     @csrf

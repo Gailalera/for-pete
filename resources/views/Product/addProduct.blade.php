@@ -1,5 +1,8 @@
 @include('partials.header')
 
+<br>
+<br>
+<br>
 <h5>Create new Input</h5>
 <form action="/saveProduct" method="POST">
     @csrf
